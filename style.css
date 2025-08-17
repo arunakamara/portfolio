@@ -243,7 +243,7 @@ footer{
 
 @media (max-width: 400px) {
    #interest li, #education li {
-   padding: 3px 0 5px 3px;
-   margin-left: 1px;
+   padding: 0;
+   margin: 0;
 }
 }
