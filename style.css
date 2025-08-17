@@ -134,7 +134,7 @@ figcaption{
 
 .project {
     background-color:  #c8b5b5;
-    width: 450px;
+    max-width: 450px;
     padding: 0;
     margin: 20px;
     
@@ -221,6 +221,12 @@ footer{
 
     p {
         font-size: 20px;
+    }
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #projects {
