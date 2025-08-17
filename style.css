@@ -226,6 +226,7 @@ footer{
 
     p {
         font-size: 20px;
+        
     }
 
     #profile {
@@ -238,4 +239,11 @@ footer{
         display: flex;
         flex-direction: column;
     }
+}
+
+@media (max-width: 400px) {
+   #interest li, #education li {
+   padding: 3px 0 5px 3px;
+   margin-left: 1px;
+}
 }
